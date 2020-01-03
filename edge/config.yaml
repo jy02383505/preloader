@@ -1,0 +1,13 @@
+port: 31108
+loglevel: "Debug" #Debug,Info,Warn,Error,Fatal,Panic
+cpunum: 1
+ip_to: "127.0.0.1:80"
+ssl_ip_to: "127.0.0.1:443"
+read_timeout: 63
+
+# for goPreload's configuration
+maxConcurrent: 100
+TsConcurrent: 100
+ConnConcurrent: 100
+RangeConcurrent: 30
+PartialSize: 10485760 # 10*1024*1024

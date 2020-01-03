@@ -1,0 +1,12 @@
+*.pyc
+.DS_Store
+.idea/
+settings_local.py
+logs/
+.project
+.pydevproject
+.settings/
+.amateras
+.python-version
+__pycache__/
+.xlsx
